@@ -1,0 +1,59 @@
+{
+  "rules": [
+    {
+      "number": 3,
+      "word": "Fizz",
+      "position": {
+        "normal": false,
+        "start": true
+      }
+    },
+    {
+      "number": 5,
+      "word": "Buzz",
+      "position": {
+        "normal": true
+      }
+    },
+    {
+      "number": 7,
+      "word": "Bang",
+      "position": {
+        "normal": false,
+        "end": true
+      }
+    },
+    {
+      "number": 11,
+      "word": "Bong",
+      "position": {
+        "normal": true
+      },
+      "effect": "clear"
+    },
+    {
+      "number": 13,
+      "word": "Fezz",
+      "position": {
+        "normal": false,
+        "beforeWord": "B",
+        "end": true
+      },
+      "effect": "priority"
+    },
+    {
+      "number": 17,
+      "effect": "reverse"
+    },
+    {
+      "number": 19,
+      "word": "Bezz",
+      "position": {
+        "normal": false,
+        "afterWord": "Fizz",
+        "start": true
+      },
+      "effect": "priority"
+    }
+  ]
+}
